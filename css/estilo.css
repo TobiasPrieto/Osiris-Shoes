@@ -1,0 +1,226 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  background-image: url(/images/patternBlanco.png); }
+
+p {
+  margin-bottom: 0px; }
+
+h1 {
+  font-weight: bold; }
+
+/*VISTA MOBILE*/
+@media screen and (max-width: 767px) {
+  .barraNav {
+    display: none; }
+  body {
+    /* COLOR DE FONDO*/
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    background-image: url(/images/patternBlanco.png); }
+    body .imgs {
+      display: none; }
+  .contenedor {
+    /* GRIDS INDEX*/
+    display: grid;
+    grid-template-areas: "header" "nav" "img" "carru" "foo";
+    grid-template-rows: auto 100px 350px auto auto;
+    grid-template-columns: 100%;
+    overflow-x: hidden; }
+  /* border: black solid 5px; */ }
+
+.img1 {
+  /*IMAGEN JORDAN AMARILLA*/
+  grid-area: img;
+  height: 100%;
+  width: 100%; }
+
+.indexDiv {
+  /* CONTENEDOR DEL INDEX*/
+  display: flex;
+  justify-content: center; }
+
+.txtIndex {
+  /*TEXTO DEL BIENVENIDO */
+  grid-area: txt;
+  background-image: url(/images/patternBlanco.png);
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  position: relative; }
+
+.redes {
+  /* DISEÑO DE LOS LOGOS DE REDES SOCIALES*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.contacto {
+  /* CONTACTO */
+  text-decoration: none;
+  color: black;
+  font-size: 20PX; }
+
+i {
+  /* LOGOS REDES*/
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  padding: 5px; }
+
+.img2 {
+  /*BANNER  */
+  display: none; }
+
+.imgs {
+  grid-area: carru;
+  width: auto;
+  height: auto; }
+
+.nosotros {
+  /* NOSOTROS*/
+  text-decoration: none;
+  color: black;
+  font-size: 20PX; }
+
+/*VISTA DESKTOP*/
+@media screen and (min-width: 1024px) {
+  .contenedor {
+    display: grid;
+    grid-template-areas: "header" "nav" "img" "txt" "foo";
+    grid-template-rows: auto 100px 490px 50px 50px;
+    grid-template-columns: 100%;
+    overflow-x: hidden; }
+  /* IMAGENES*/
+  .img1 {
+    display: none; }
+  .img2 {
+    width: 100%;
+    height: 100%;
+    display: flex; }
+  nav ul {
+    /*BARRA DE NAVEGACION*/
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 750px; }
+  .barraNavBootstrap {
+    display: none; }
+  .formulario {
+    position: relative;
+    left: 50PX; } }
+
+/* TRANSICIONES*/
+.footer__instagram--hover:hover {
+  transform: scale(1.2, 1.2) rotate(360deg);
+  transition: all 2s; }
+
+.footer__whatsapp--hover:hover {
+  transform: scale(1.2, 1.2) rotate(360deg);
+  transition: all 2s; }
+
+.footer__correo--hover:hover {
+  transform: scale(1.2, 1.2) rotate(360deg);
+  transition: all 2s; }
+
+.nav__productos--hover:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s; }
+
+.nav__compras--hover:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s; }
+
+.nav__talles--hover:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s; }
+
+.nav__nosotros--hover:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s; }
+
+.nav__contacto--hover:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s; }
+
+.header__logo--hover:hover {
+  transform: rotate(360deg);
+  transition: 3s; }
+
+/* ESTILO BARRA DE NAVEGACION  */
+header {
+  /* DISEÑO DEL HEADER*/
+  grid-area: header;
+  background-image: url(/images/bannermoldenegro.png);
+  display: flex;
+  justify-content: center; }
+
+.header__logo--tamaño {
+  /* LOGO HEADER NAV*/
+  height: 100px;
+  width: 100px; }
+
+nav {
+  /* PROPIEDADES DE LA NAV */
+  grid-area: nav;
+  background-image: url(/images/pattern.png);
+  display: flex;
+  justify-content: space-around;
+  list-style: none; }
+
+li a {
+  /* TEXTO DE LA BARRA DE NAVEGACION */
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  top: 25px; }
+
+a:hover {
+  color: black; }
+
+.barraNavBootstrap {
+  /* BARRA NAVEGACION BOOTSTRAP */
+  grid-area: nav;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
+  font-style: italic; }
+
+.navbar-brand {
+  /* TEXTO DE LA NAV DE BOOTSTRAP */
+  font-size: 50px; }
+
+footer {
+  /* DISEÑO DEL FOOTER*/
+  grid-area: foo;
+  background-image: url(/images/pattern.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  overflow: hidden; }
+
+.divTxt {
+  display: flex;
+  justify-content: center; }
+
+.textoIndex {
+  grid-area: txt;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 5px; }
+
+.contenedorImg {
+  grid-area: img; }

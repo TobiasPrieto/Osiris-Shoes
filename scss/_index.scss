@@ -1,0 +1,12 @@
+.divTxt{
+    display: flex;
+    justify-content: center;
+}
+
+.textoIndex{
+    grid-area: txt;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+}

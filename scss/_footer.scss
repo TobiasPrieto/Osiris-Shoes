@@ -1,0 +1,11 @@
+footer{     /* DISEÑO DEL FOOTER*/
+    grid-area: foo;
+    background-image: url(/images/pattern.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    overflow: hidden;
+}

@@ -1,0 +1,48 @@
+/* ESTILO BARRA DE NAVEGACION  */ 
+
+header{ /* DISEÑO DEL HEADER*/
+    grid-area: header;
+    background-image: url(/images/bannermoldenegro.png);
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo--tamaño{  /* LOGO HEADER NAV*/
+    height: 100px;width: 100px;
+}
+
+
+nav{   /* PROPIEDADES DE LA NAV */
+    grid-area: nav;
+    background-image: url(/images/pattern.png);
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+li a{   /* TEXTO DE LA BARRA DE NAVEGACION */
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: 25px;
+}
+    
+
+a:hover{ color: black;}
+
+.barraNavBootstrap{ /* BARRA NAVEGACION BOOTSTRAP */
+    grid-area: nav;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.navbar-brand{    /* TEXTO DE LA NAV DE BOOTSTRAP */
+    font-size: 50px;
+}
+
+
