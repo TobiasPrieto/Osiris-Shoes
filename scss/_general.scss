@@ -5,7 +5,7 @@
 
   body{
        font-family: 'Barlow Condensed', sans-serif;
-       background-image: url(../images/patternBlanco.png)
+       background-image: url(../images/patternBlanco.jpg)
       ;
   }
 
@@ -25,7 +25,7 @@
         font-family: 'Barlow Condensed', sans-serif;
         background-color: #ffffff;
         overflow-x: hidden;
-        background-image: url(../images/);
+        background-image: url(../images/patternBlanco.jpg);
         .imgs{display: none};
     }
     .contenedor{  /* GRIDS INDEX*/ 
@@ -67,7 +67,7 @@
   }
   .txtIndex{      /*TEXTO DEL BIENVENIDO */
       grid-area: txt;
-      background-image: url(../images/patternBlanco.png);
+      background-image: url(../images/patternBlanco.jpg);
       font-size: 30px;
       text-transform: uppercase;
       font-weight: bold;
