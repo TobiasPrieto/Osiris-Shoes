@@ -61,53 +61,105 @@
                 </nav>
               </div>
             
-        <div>
+        <div class="contenido">
             <!-- IMAGENES/BANNER -->
-            <a href="./pages/productos.html"><img class="img1" src="./images/jordan.jpg" alt="zapas jordan"></a>
-            <div class="imgs"> <!-- BOOTSTRAP -->
+
+            <!-- CARROUSEL MOBILE -->
+            <div id="carouselExampleControls" class="carousel slide carroMobile" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/jordan.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/nike98.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/podnegras.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/niteJogger.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/vapormax.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <!-- CARROUSEL DESKTOP -->
+            <div class="imgs"> 
               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
+                    <img src="./images/bannerAdidasSegundo.jpg" class="d-block w-100" alt="banner index">
+                  </div>
+                  <div class="carousel-item ">
                     <img src="./images/bannerConverse.jpg" class="d-block w-100" alt="banner converse">
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item ">
                     <img src="./images/bannerAdidas.jpg" class="d-block w-100" alt="banner adidas">
                   </div>
                   <div class="carousel-item">
                     <img src="./images/jordanBanner.jpg" class="d-block w-100" alt="banner index">
                   </div>
+                  <div class="carousel-item">
+                    <img src="./images/bannerPuma.jpg" class="d-block w-100" alt="banner index">
+                  </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
               </div>
             
             </div>
+            <div>
+              <p class="textoIndex">
+                BIENVENIDO A OSIRIS SHOES , NUESTRO EMPRENDIMIENTO ONLINE DE VENTA DE ZAPATILLAS.
+                <a href="./pages/productos.html">¡COMPRA YA!</a>
+              </p>
+            </div>
         </div>
-        <div class="divTxt">
-          <p class="textoIndex">BIENVENIDO </p>
-        </div>
+        
         
     
             
         
         <footer><!-- FOOTER AMARILLO -->
-            <div><a class="contacto" href="/pages/contacto.html">#</a></div>
-            
-            
+          <div class="fooTitulo">
+            <a class="fooTitulo" href="#"><p>OSIRIS SHOES</p></a>
+          </div>
             <div class="redes">
                 <a class="footer__instagram--hover" href="http://www.instagram.com/tobiasprieto_" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram "></i></a>
                 <a class="footer__whatsapp--hover" href="https://wa.me/+5493416502817" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"> </i></a>
                 <a class="footer__correo--hover" href="mailto:osirisshoes@gmail.com"> <i class="far fa-envelope"> </i></a>
             </div>
-            <div><a class="nosotros" href="/pages/nosotros.html">#</a></div>    
-            
-            
+            <div class="newsletter">
+              <p>Suscribite a nuestro newsletter: </p>
+              
+            </div>
+            <div class="fooBoton">
+              <input class="botonNews" type="email" placeholder="Correo electrónico"><p>
+                <button>SUSCRIBIRSE</button></p>
+            </div>
+            <div class="copyright">
+              <p>Copyright &copy; 2021 All Rights Reserved</p>
+            </div>
+            <div class="desarrollado">
+              <p>Desarrollado por Tobias Prieto</p>
+            </div>
+           
         </footer>
           
     

@@ -1,5 +1,117 @@
-.contenedorImg{
-    grid-area: img;
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+section{
+    grid-area: section;
+}
+
+footer{
+    grid-area: foo;
 }
 
 
+
+
+
+.card-text{
+    font-size: 25px;
+}
+.card-title{font-weight: bold;}
+
+.btn-primary{
+    background-color: #fdf002;
+    border-color: black;
+    color: black;
+}
+.btn-primary:hover{ background-color: black;
+    color: #fdf002;
+    border-color: #fdf002;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* VISTA DESKTOP */
+@media screen and (min-width:1024px) {
+    
+    .card:hover{
+        transform:translate(0px, -20px);
+        transition: all 1s;
+        border: #fdf002 solid 5px;
+    }
+
+.contenedorProductos{
+display: grid;
+grid-template-areas: 
+"header"
+"nav"
+"section"
+"foo";
+grid-template-rows: auto 100px auto auto;
+grid-template-columns: 100%;
+}
+
+
+
+.productosCards1{
+    display: flex;
+    justify-content: center;
+}
+.productosCards2{
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+
+/* VISTA MOBILE */
+@media screen and(max-width:767px )  {
+.contenedorProductos{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "section"
+    "foo";
+    grid-template-rows: auto 100px auto auto;
+    grid-template-columns: 100%;
+}
+    
+
+.productosCards1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productosCards2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.barraNavBootstrap{
+    z-index: 5;
+}
+
+.cajaTitulo{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+}

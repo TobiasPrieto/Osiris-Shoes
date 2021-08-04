@@ -3,6 +3,8 @@
     box-sizing: border-box;
   }
 
+
+
   body{
        font-family: 'Barlow Condensed', sans-serif;
        background-image: url(../images/patternBlanco.jpg)
@@ -14,6 +16,7 @@
   
   h1{
       font-weight: bold;
+      font-style: italic;
   }
 
 
@@ -22,32 +25,13 @@
   @media screen and(max-width:767px )  {
     .barraNav{display: none;}
     body{ /* COLOR DE FONDO*/
-        font-family: 'Barlow Condensed', sans-serif;
         background-color: #ffffff;
         overflow-x: hidden;
         background-image: url(../images/patternBlanco.jpg);
-        .imgs{display: none};
+       
     }
-    .contenedor{  /* GRIDS INDEX*/ 
-        display: grid;
-        grid-template-areas:
-    "header"
-    "nav"
-    "img"
-    "carru"
-    "foo";
-    
-    grid-template-rows: auto 100px 350px auto auto;
-    grid-template-columns: 100%;
-    overflow-x: hidden;
-    
-      
-  }
+   
   
-
-  
-  
-  /* border: black solid 5px; */
   }
   
   
@@ -122,18 +106,7 @@
                                   /*VISTA DESKTOP*/
   @media screen and (min-width:1024px) {
       
-      .contenedor{
-      display: grid;
-      grid-template-areas:
-  "header"
-  "nav"
-  "img"
-  "txt"
-  "foo";
-  
-  grid-template-rows: auto 100px 490px 50px 50px;
-  grid-template-columns: 100%;
-  overflow-x: hidden;}
+      
       
       
   /* IMAGENES*/    
