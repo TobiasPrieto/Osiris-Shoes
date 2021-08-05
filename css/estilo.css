@@ -63,7 +63,7 @@ i {
   font-size: 40px;
   text-decoration: none;
   color: black;
-  padding: 5px; }
+  padding: 10px; }
 
 .img2 {
   /*BANNER  */
@@ -99,7 +99,9 @@ i {
     display: none; }
   .formulario {
     position: relative;
-    left: 50PX; } }
+    left: 50PX; }
+  h1 {
+    padding-left: 50px; } }
 
 /* TRANSICIONES*/
 .footer__instagram--hover:hover {
@@ -194,7 +196,8 @@ footer {
   font-weight: bold;
   font-style: italic;
   font-size: 20px;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 50px; }
 
 .fooTitulo {
   display: flex;
@@ -268,7 +271,7 @@ button {
     grid-area: header; }
   nav {
     grid-area: nav; }
-  .contenido {
+  section {
     grid-area: section; }
   footer {
     grid-area: foo; }
@@ -347,3 +350,38 @@ footer {
   .cajaTitulo {
     display: flex;
     justify-content: center; } }
+
+.acordeonAyuda {
+  padding-bottom: 50px;
+  padding-top: 10px;
+  font-weight: bold; }
+
+.accordion-button {
+  font-weight: bold;
+  font-style: italic; }
+
+h2 {
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 20px; }
+
+.txtCarro {
+  font-size: 20px; }
+
+/* VISTA MOBILE */
+@media screen and (max-width: 767px) {
+  .tituloCarro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+  h2 {
+    display: flex;
+    justify-content: center; } }
+
+/* VISTA DESKTOP */
+@media screen and (min-width: 1024px) {
+  h2 {
+    padding-left: 40px; }
+  .txtCarro {
+    padding-left: 20px; } }

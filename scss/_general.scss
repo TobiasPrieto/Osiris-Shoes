@@ -1,6 +1,7 @@
 *{margin:0 ;
     padding: 0;
     box-sizing: border-box;
+    
   }
 
 
@@ -80,7 +81,7 @@
       font-size: 40px;
       text-decoration: none;
       color: black;
-      padding: 5px
+      padding: 10px
   }
   
   
@@ -133,6 +134,10 @@
         position: relative;
         left: 50PX;
     }    
+
+    h1{
+        padding-left: 50px;
+    }
     
   
   
