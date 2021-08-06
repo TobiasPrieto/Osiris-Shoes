@@ -1,0 +1,40 @@
+th{
+    padding: 5px;
+}
+
+.txtTalle{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.talles{
+    border: black solid 2px;
+}
+
+
+/* VISTA DESKTOP  */
+@media screen and (min-width:1024px) {
+    
+
+}
+
+
+
+
+/* VISTA MOBILE */
+@media screen and(max-width:767px )  {
+H1{
+    display: flex;
+    justify-content: center;
+}
+
+.talles{
+    position: relative;
+    left: 15px;
+    width: 350px;
+}
+th{padding: 15px;}
+td{padding: 5px;}
+
+
+}
