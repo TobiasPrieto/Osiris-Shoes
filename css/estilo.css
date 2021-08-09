@@ -97,9 +97,6 @@ i {
     left: 750px; }
   .barraNavBootstrap {
     display: none; }
-  .formulario {
-    position: relative;
-    left: 50PX; }
   h1 {
     padding-left: 50px; } }
 
@@ -426,3 +423,6 @@ th {
     grid-template-areas: "grid1 grid2";
     grid-template-columns: 50% 50%;
     grid-template-rows: 1; } }
+
+/* VISTA MOBILE */
+/* VISTA DESKTOP  */
