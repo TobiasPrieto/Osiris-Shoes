@@ -415,11 +415,10 @@ th {
   font-size: 20px;
   padding: 5px; }
 
-/* VISTA MOBILE */
-@media screen and (max-width: 767px) {
-  .imgNos {
-    width: 100%; } }
+.imgNos {
+  width: 100%; }
 
+/* VISTA MOBILE */
 /* VISTA DESKTOP  */
 @media screen and (min-width: 1024px) {
   .nosotrosGrid {
