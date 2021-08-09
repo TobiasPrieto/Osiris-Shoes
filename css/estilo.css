@@ -410,3 +410,20 @@ th {
     padding: 15px; }
   td {
     padding: 5px; } }
+
+.txtNosotros {
+  font-size: 20px;
+  padding: 5px; }
+
+/* VISTA MOBILE */
+@media screen and (max-width: 767px) {
+  .imgNos {
+    width: 100%; } }
+
+/* VISTA DESKTOP  */
+@media screen and (min-width: 1024px) {
+  .nosotrosGrid {
+    display: grid;
+    grid-template-areas: "grid1 grid2";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1; } }
