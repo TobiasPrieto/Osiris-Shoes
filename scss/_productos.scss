@@ -78,6 +78,36 @@ grid-template-columns: 100%;
 }
 
 
+
+
+
+
+/* VISTA TABLET */
+@media screen and(min-width:768px) and (max-width:1024px) {
+    
+    .productosCards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .productosCards1{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .productosCards2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+
+}
+
+
+
+
+
+
 /* VISTA MOBILE */
 @media screen and(max-width:767px )  {
 .contenedorProductos{

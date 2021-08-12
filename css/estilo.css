@@ -13,7 +13,8 @@ p {
 
 h1 {
   font-weight: bold;
-  font-style: italic; }
+  font-style: italic;
+  padding: 20px; }
 
 /*VISTA MOBILE*/
 @media screen and (max-width: 767px) {
@@ -231,6 +232,9 @@ button {
 .botonNews {
   padding: 5px; }
 
+.textoIndex {
+  padding: 20px; }
+
 /* VISTA DESKTOP */
 @media screen and (min-width: 1024px) {
   .carroMobile {
@@ -253,6 +257,22 @@ button {
     font-weight: bold;
     font-style: italic;
     display: flex;
+    justify-content: center;
+    padding: 20px; } }
+
+/* VISTA TABLET */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .barraNav {
+    display: none; }
+  .imgs {
+    display: none; }
+  .textoIndex {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center; } }
 
 /* VISTA MOBILE */
@@ -279,7 +299,9 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; } }
+    justify-content: center; }
+  .imgs {
+    display: none; } }
 
 header {
   grid-area: header; }
@@ -327,6 +349,20 @@ footer {
     display: flex;
     justify-content: center; } }
 
+/* VISTA TABLET */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .productosCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .productosCards1 {
+    display: grid;
+    grid-template-columns: 50% 50%; }
+  .productosCards2 {
+    display: grid;
+    grid-template-columns: 50% 50%; } }
+
 /* VISTA MOBILE */
 @media screen and (max-width: 767px) {
   .contenedorProductos {
@@ -360,10 +396,11 @@ footer {
 h2 {
   font-weight: bold;
   font-style: italic;
-  padding-top: 20px; }
+  padding: 20px; }
 
 .txtCarro {
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 20px; }
 
 /* VISTA MOBILE */
 @media screen and (max-width: 767px) {
@@ -388,7 +425,8 @@ th {
 
 .txtTalle {
   font-size: 20px;
-  padding-left: 20px; }
+  padding-left: 20px;
+  padding: 20px; }
 
 .talles {
   border: black solid 2px; }
@@ -410,10 +448,11 @@ th {
 
 .txtNosotros {
   font-size: 20px;
-  padding: 5px; }
+  padding: 20px; }
 
 .imgNos {
-  width: 100%; }
+  width: 100%;
+  padding: 20px; }
 
 /* VISTA MOBILE */
 /* VISTA DESKTOP  */
@@ -425,13 +464,30 @@ th {
     grid-template-rows: 1; } }
 
 .txtContacto {
-  padding: 5px;
+  padding: 20px;
   font-size: 20px; }
 
 /* VISTA MOBILE */
 @media screen and (max-width: 767px) {
   .contenedorForm {
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  .poster {
+    display: none; }
+  .formulario {
+    width: 100%; } }
+
+/* VISTA TABLET */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .poster {
+    display: none; } }
 
 /* VISTA DESKTOP  */
+@media screen and (min-width: 1024px) {
+  .contenedorForm {
+    display: grid;
+    grid-template-areas: "grid1 grid2";
+    grid-template-columns: 50% 50%; }
+  .poster {
+    padding-top: 50px;
+    padding-bottom: 50px; } }
