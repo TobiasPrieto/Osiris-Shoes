@@ -47,9 +47,14 @@ footer{
 /* VISTA DESKTOP */
 @media screen and (min-width:1024px) {
     
+    
+    .card{
+        transition: all 1s;
+
+    }
+    
     .card:hover{
         transform:translate(0px, -20px);
-        transition: all 1s;
         border: #fdf002 solid 5px;
     }
 

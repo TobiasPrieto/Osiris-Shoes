@@ -102,40 +102,58 @@ i {
     padding-left: 50px; } }
 
 /* TRANSICIONES*/
+.footer__instagram--hover {
+  transition: all 2s; }
+
 .footer__instagram--hover:hover {
-  transform: scale(1.2, 1.2) rotate(360deg);
+  transform: scale(1.2, 1.2) rotate(360deg); }
+
+.footer__whatsapp--hover {
   transition: all 2s; }
 
 .footer__whatsapp--hover:hover {
-  transform: scale(1.2, 1.2) rotate(360deg);
+  transform: scale(1.2, 1.2) rotate(360deg); }
+
+.footer__correo--hover {
   transition: all 2s; }
 
 .footer__correo--hover:hover {
-  transform: scale(1.2, 1.2) rotate(360deg);
-  transition: all 2s; }
+  transform: scale(1.2, 1.2) rotate(360deg); }
+
+.nav__productos--hover {
+  transition: 1s; }
 
 .nav__productos--hover:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2); }
+
+.nav__compras--hover {
   transition: 1s; }
 
 .nav__compras--hover:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2); }
+
+.nav__talles--hover {
   transition: 1s; }
 
 .nav__talles--hover:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2); }
+
+.nav__nosotros--hover {
   transition: 1s; }
 
 .nav__nosotros--hover:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2); }
+
+.nav__contacto--hover {
   transition: 1s; }
 
 .nav__contacto--hover:hover {
-  transform: scale(1.2, 1.2);
-  transition: 1s; }
+  transform: scale(1.2, 1.2); }
 
 .header__logo--hover:hover {
-  transform: rotate(360deg);
+  transform: rotate(360deg); }
+
+.header__logo--hover {
   transition: 3s; }
 
 /* ESTILO BARRA DE NAVEGACION  */
@@ -235,6 +253,9 @@ button {
 .textoIndex {
   padding: 20px; }
 
+section {
+  padding-bottom: 50px; }
+
 /* VISTA DESKTOP */
 @media screen and (min-width: 1024px) {
   .carroMobile {
@@ -333,9 +354,10 @@ footer {
 
 /* VISTA DESKTOP */
 @media screen and (min-width: 1024px) {
+  .card {
+    transition: all 1s; }
   .card:hover {
     transform: translate(0px, -20px);
-    transition: all 1s;
     border: #fdf002 solid 5px; }
   .contenedorProductos {
     display: grid;
